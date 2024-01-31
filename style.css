@@ -1,0 +1,247 @@
+html{
+    width: 100%;
+    height: auto;
+
+    background-color: #ffffff;
+}
+
+body{
+    width: 70%;
+    height: auto;
+
+    margin: auto;
+    padding: 0;
+
+    background-color: #ffffff;
+}
+
+#charLarge, #charSmall{
+    width: 40px;
+    height: 40px;
+
+    position: fixed;
+    right: 60px;
+    margin: 0;
+    padding: 10px;
+
+    background-color: #dfdfdf;
+    border: none;
+
+    font-weight: 900;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+#charLarge:active, #charSmall:active{
+    background-color: #bbbbbb;
+}
+
+#charLarge{
+    bottom: 120px;
+}
+
+#charSmall{
+    bottom: 60px;
+}
+
+.sectionTitle{
+    width: 100%;
+    height: auto;
+
+    display: block;
+    margin: 1rem 0;
+    padding: 0;
+
+    border-bottom: #5555dd solid 8px;
+
+    font-size: 3rem;
+    font-family: Yu Gothic;
+    font-weight: 800;
+    line-height: 6rem;
+}
+
+#container-textColor{
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    gap: 0.25rem;
+    margin: 2rem 0;
+    padding: 0;
+}
+
+.textColor{
+    width: 100%;
+    height: calc(2.5rem * 15);
+
+    display: block;
+    margin: 0;
+    padding: 0.5rem 1rem;
+
+    background-color: #ffffff;
+    border: #5555dd solid 1px;
+
+    font-size: 1.25rem;
+    font-family: Yu Gothic;
+    font-weight: 800;
+    text-align: justify;
+    line-height: 2.5rem;
+
+    overflow: hidden;
+}
+
+#container-textSize{
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    gap: 0.25rem;
+    margin: 2rem 0;
+    padding: 0;
+}
+
+.textSize{
+    width: 100%;
+    height: calc(13px * 20);
+
+    display: block;
+    margin: 0;
+    padding: 0.5rem 1rem;
+
+    background-color: #ffffff;
+    border: #5555dd solid 1px;
+
+    font-family: Yu Gothic;
+    font-weight: 800;
+    color: #333;
+    text-align: justify;
+
+    overflow: hidden;
+}
+
+.container-textLineheight{
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    gap: 0.25rem;
+    margin: 2rem 0;
+    padding: 0;
+}
+
+.textLineheight{
+    width: 100%;
+    height: calc(13px * 20);
+
+    display: block;
+    margin: 0;
+    padding: 0.5rem 1rem;
+
+    background-color: #ffffff;
+    border: #5555dd solid 1px;
+
+    font-family: Yu Gothic;
+    font-weight: 600;
+    text-align: justify;
+    color: #333;
+    font-size: 12px;
+
+    overflow: hidden;
+}
+
+h3{
+    font-size: 2.5rem;
+    line-height: 5rem;
+}
+
+h4{
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+}
+
+#color1{
+    color: #000;
+}
+
+#color2{
+    color: #111;
+}
+
+#color3{
+    color: #222;
+}
+
+#color4{
+    color: #333;
+}
+
+#color5{
+    color: #444;
+}
+
+#size1{
+    font-size: 8px;
+    line-height: 13px;
+}
+
+#size2{
+    font-size: 10px;
+    line-height: 15px;
+}
+
+#size3{
+    font-size: 12px;
+    line-height: 17px;
+}
+
+#size4{
+    font-size: 14px;
+    line-height: 19px;
+}
+
+#size5{
+    font-size: 16px;
+    line-height: 21px;
+}
+
+
+
+#lineheight1{
+    line-height: calc(12px * 1.25);
+}
+
+#lineheight2{
+    line-height: calc(12px * 1.5);
+}
+
+#lineheight3{
+    line-height: calc(12px * 1.75);
+}
+
+#lineheight4{
+    line-height: calc(12px * 2);
+}
+
+#lineheight5{
+    line-height: calc(12px * 2.25);
+}
+
+#lineheight6{
+    line-height: calc(12px * 2.5);
+}
+
+#lineheight7{
+    line-height: calc(12px * 2.75);
+}
+
+#lineheight8{
+    line-height: calc(12px * 3);
+}
+
+#lineheight9{
+    line-height: calc(12px * 3.25);
+}
+
+#lineheight10{
+    line-height: calc(12px * 3.5);
+}
